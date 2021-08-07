@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12 col-lg-4 logo p-5 p-md-1">
+            <div class="col-12 p-5">
+                <h2>Feel free to drop us a line and give us your feedback.</h2>
+                <p class="mt-3">We are looking forward to hearing back from you.</p>
+                <img class="mt-5" src="pics/logo2.png" width="100%" alt="" srcset="">
+            </div>
+
+        </div>
+
+        <div class="col-12 col-lg-8  p-5 ">
+            <form id="myForm" action="#" method="POST">
+                <div class="tab">
+                    <h3>How much are you satisfied?</h3>
+                    <div class="description mt-4 mb-4">
+                        <p><strong>0</strong> - not at all satisfied / not satisfied in any way</p>
+                        <p><strong>1</strong> - not very satisfied</p>
+                        <p><strong>10</strong> - very satisfied</p>
+                    </div>
+                    <div class="radio-item ">
+                        <input type="radio" name="exampleRadios" id="radioOne" value="option1">
+                        <label for="radioOne">
+                            0
+                        </label>
+                    </div>
+                    <div class="radio-item ">
+                        <input type="radio" name="exampleRadios" id="radioOne" value="option1">
+                        <label for="radioOne">
+                            1
+                        </label>
+                    </div>
+                    <div class="radio-item ">
+                        <input type="radio" name="exampleRadios" id="radioTwo" value="option2">
+                        <label for="radioTwo">
+                            2
+                        </label>
+                    </div>
+                    <div class=" radio-item ">
+                        <input type="radio" name="exampleRadios" id="radioThree" value="option3">
+                        <label for="radioThree">
+                            3
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioFour" value="option4">
+                        <label for="radioFour">
+                            4
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioFive" value="option5" checked>
+                        <label for="radioFive">
+                            5
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioSix" value="option6">
+                        <label for="radioSix">
+                            6
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioSeven" value="option7">
+                        <label for="radioSeven">
+                            7
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioEight" value="option8">
+                        <label for="radioEight">
+                            8
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioNine" value="option9">
+                        <label for="radioNine">
+                            9
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="exampleRadios" id="radioTen" value="option10">
+                        <label for="radioTen">
+                            10
+                        </label>
+                    </div>
+                    <h3 class="mt-5 mb-3">Please tell us reasons for giving this score.</h3>
+                    <textarea class="form-control mb-3" id="reason1" rows="6"></textarea>
+
+                </div>
+                <div class="tab">
+                    <h3 class="">How much are you satisfied?</h3>
+
+                    <label class="checkbox-container ml-0">
+                        Poor
+                        <input type="checkbox" value="poor" id="poor">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        Average
+                        <input class="form-check-input" type="checkbox" value="average" id="avarage">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        Good
+                        <input class="form-check-input" type="checkbox" value="good" id="good">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        Excellent
+                        <input class="form-check-input" type="checkbox" value="excellent" id="excellent">
+                        <span class="checkmark"></span>
+                    </label>
+                    <h3 class="mt-5 mb-3">Please tell us reasons for giving this score.</h3>
+                    <textarea class="form-control mb-3" id="reason2" rows="6"></textarea>
+                </div>
+                <div class="tab">
+                    <h3 class="mb-3">How much are you satisfied?</h3>
+                    <div class="row faces">
+                        <div class="col-12">
+                            <input type="checkbox" id="myCheckbox1" />
+                            <label for="myCheckbox1"><img src="pics/happy.png" width="60%" /></label>
+                            <input type="checkbox" id="myCheckbox2" />
+                            <label for="myCheckbox2"><img src="pics/sad.png" width="60%" /></label>
+                            <input type="checkbox" id="myCheckbox3" />
+                            <label for="myCheckbox3"><img src="pics/surprised.png" width="60%" /></label>
+                        </div>
+
+                    </div>
+                    <h3 class="mt-5 mb-3">Please tell us reasons for giving this score.</h3>
+                    <textarea class="form-control mb-3" id="reason3" rows="6"></textarea>
+                </div>
+                <div class="tab">
+                    <h3 class="mb-3">Please give your feedback</h3>
+                    <textarea class="form-control mb-3" id="feedback" rows="10"></textarea>
+                </div>
+                <div style="overflow:auto;">
+                    <div style="float:right; margin-top: 5px;">
+                        <button type="button" class="previous">Previous</button>
+                        <button type="button" class="next">Next</button>
+                        <button type="submit" class="submit">Submit</button>
+                    </div>
+                </div>
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                    <span class="step">1</span>
+                    <span class="step">2</span>
+                    <span class="step">3</span>
+                    <span class="step">4</span>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="multi-form.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
